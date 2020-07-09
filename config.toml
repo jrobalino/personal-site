@@ -5,6 +5,7 @@ theme = "osprey"
 
 [Params]
     tagline = "Front End & VR/AR Developer"
+    copyright = true
 
 [[menu.main]]
     name = "About"
