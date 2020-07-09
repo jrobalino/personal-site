@@ -6,6 +6,9 @@ theme = "osprey"
 [Params]
     tagline = "Front End & VR/AR Developer"
     copyright = true
+    logoBig = "/images/monkey-big.png"
+    logoSmall = "/images/monkey-small.png"
+    favicon = "favicon.ico"
 
 [[menu.main]]
     name = "About"
