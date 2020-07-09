@@ -15,4 +15,4 @@ I'm a front end and VR/AR developer interested in creating positive impact throu
 * Agile processes
 * Dev ops tools like Jenkins, Datadog, and Kibana
 
-In addition to being a developer, I aslo have extensive experiece serving as a developer advocate and building world-class documentation stacks.
+In addition to being a developer, I have extensive experiece serving as a developer advocate and building world-class documentation stacks.
