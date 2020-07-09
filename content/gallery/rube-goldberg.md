@@ -6,6 +6,6 @@ image: "rube-goldberg-vr.png"
 alt: "Rube Goldberg VR Game"
 link1: "/work/rube-goldberg/"
 link2: "https://github.com/jrobalino/rube-goldberg"
-weight: 2
+weight: 3
 ---
 

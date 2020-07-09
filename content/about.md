@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2017-08-16T20:06:21-05:00
-draft: true
+draft: false
 ---
 
 I'm a front end and VR/AR developer interested in creating positive impact through web applications and immersive technologies. I started my career as a Mechanical Engineer, a field in which strong project management and critical thinking skills are a must. After transitioning to tech, I learned the importance of designing experiences with the end user in mind. I have experience working with:

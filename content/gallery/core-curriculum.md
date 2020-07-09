@@ -6,6 +6,6 @@ image: "core-curriculum-vr.jpg"
 alt: "Udacity Core VR Curriculum"
 link1: "https://jrobalino.github.io/udacity-vr/"
 link2: "https://github.com/jrobalino/udacity-vr"
-weight: 1
+weight: 2
 ---
 
