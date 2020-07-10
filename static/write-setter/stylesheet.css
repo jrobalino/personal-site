@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body {
+	background-image:url(images/desk.png);
+}
+
+#paper {
+	text-align:center;
+}
+
+#text_form {
+	width:707px; /* Use the width and height of the image. If the image changes, recalibrate the dimensions in #book_title and #words */
+	height:1115px; 
+	margin: 0 auto;
+	background-image:url(images/paper.png);
+	border-radius:10px;
+}
+
+#book_title {
+	background:none;
+	text-transform: uppercase;
+	font-family:Times New Roman;
+	font-size: 14px;
+	opacity:.90;
+	resize:none;
+	overflow:hidden;
+	border-style:none;
+	outline:none;
+	text-align:center;
+	padding-top: 30px; /*padding-top calibrated using the Blink book*/
+	width:inherit;
+}
+
+#words {
+	background:none;
+	font-family:Times New Roman;
+	font-size: 21px;
+	opacity:.90;
+	resize:none;
+	overflow:hidden;
+	border-style:none;
+	outline:none;
+	text-align:justify;
+	padding-top:65px; /* The left and top padding was calibrated using the Blink book */
+	padding-left:80px;
+	width:547px; /*width = #text_form width - 2 * padding-left*/
+	height:950px; /* height calibrated to personal liking */
+}
+
+.option_selections {
+	text-align: left;
+	font-family:Verdana;
+	font-size:12px;
+	background-color: #D1CACA;
+	padding: 10px;
+	border-radius: 10px;
+	opacity:.9;
+	display:none;
+	position:fixed;
+	bottom:0px;
+	float:left;
+
+}
+
+#close {
+	padding-left:50px;
+	width:20px;
+	height:20px;	
+}
+
+#home {
+	padding-left:50px;
+	width:20px;
+	height:20px;	
+}
+
+#bg_url {
+	color:#888;
+}
+
+#custom_font {
+	color:#888;
+}
+
+#custom_size {
+	color:#888;
+}
+
+#options_container {
+	position:fixed;
+	top:50%;
+}
+
+#show_options {
+	text-align:center;
+	width: 30px;
+	height: 25px;
+	font-family:Verdana;
+	font-size:12px;
+	background-color:#D1CACA;
+	opacity:.9;
+	padding:5px;
+	border-radius:9px;
+}
+
+#cog {
+	width:25px;
+	height:25px;
+}

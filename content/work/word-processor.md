@@ -4,14 +4,16 @@ date: 2015-07-01T18:46:33-05:00
 draft: false
 ---
 
-[Code is not available for this project because the repository belongs to a company I've worked for](/work/api-keys-app/)
+[View code on GitHub](/work/api-keys-app/)
 
 ### A word processor that adapts to your needs
 
-<img src="images/word-processor.png" alt="Book with words">
+<img style="margin-top: 20px" src="images/word-processor.png" alt="Book with words">
 
 
-This was my first ever JavaScript project. I had an idea for a word processor that displayed text on a book, and that's how this project was born.
+This was my first ever JavaScript project. I had an idea for a word processor that displayed text on a book, and that's how this project was born. I called it WriteSetter.
 
-Learn more by trying it out!
+Visit the [WriteSetter landing page](/write-setter/write-setter.html) to learn more about it. 
+
+### [Try it out!](/write-setter/word-processor.html)
 

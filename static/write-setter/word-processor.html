@@ -1,0 +1,522 @@
+<!doctype html>
+<html>
+<head>
+<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/sisyphus.min.js"></script>
+<meta charset="utf-8">
+
+<!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+<title>WriteSetter | Minimalist Online Word Processor</title>
+    <meta name="description" content="WriteSetter makes writing easy with a free, minimalist word processor. Create your masterpiece distraction-free on a book, note, or custom background. ">
+    <meta name="keywords" content="WriteSetter, word processor, free, minimalist, online, customizable, full screen, distraction-free, productivity, inspiration, writing, darkroom, cloud backup, looks like book">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60041871-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body class="body">
+<br>
+<br>
+
+<div id="options_container">
+<div id="show_options"><img src="images/cog.png" id="cog">
+</div>
+</div>
+
+<form id="text_form" name="text_form1">
+<input id="book_title" value="WriteSetter" name="book_title1">
+<textarea id="words" name="words1">"Better pass boldly into that other world, in the full glory of some passion, than fade and wither dismally with age." --James Joyce</textarea>
+</form>
+
+<br>
+
+<table class="option_selections">
+<tr><td>Font type:</td> <!--New row-->
+<td>
+<form name="fontoptions_form1" id="fontoptions_form">
+    <select id="font_select" name="font_select1" value="Times New Roman">
+        <option value="Arial Black">Arial Black</option>
+        <option value="Book Antiqua">Book Antiqua</option>
+        <option value="Brush Script MT">Brush Script MT</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Courier New">Courier New</option>
+        <option value="cursive">Cursive</option>
+        <option value="Garamond">Garamond</option>
+        <option value="Helvetica">Helvetica</option>
+        <option value="Impact">Impact </option>
+        <option value="Lato">Lato</option>
+        <option value="Lucida Console">Lucida Console</option>
+        <option value="Palatino Linotype">Palatino Linotype</option>
+        <option value="Papyrus">Papyrus</option>
+        <option value="Times New Roman" selected>Times New Roman</option>
+        <option value="Verdana ">Verdana </option>
+    </select>
+</form>
+<td>
+<form name="customfont_form1" id="customfont_form"><input type="text" id="custom_font" name="custom_font1" value="Other font..." onfocus="inputFocus(this)" onblur="inputBlur(this)"><input type="button" id="font_button" name="font_button1" value="Apply">
+</form>
+</td>
+<td><img src="images/close.png" id="close"></td>
+</tr>
+<tr> <!--New row-->
+<td>Font size:</td>
+<td>
+<form name="fontsize_form1" id="fontsize_form"><select id="font_size" name="font_size1" value="21">
+        <option value="8">8</option>
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="18">18</option>
+        <option value="21" selected>21</option>
+        <option value="24">24</option>
+        <option value="32">32</option>
+        <option value="48">48</option>
+    </select>
+</form>
+</td>
+<td>
+<form name="customsize_form1" id="customsize_form"><input type="text" id="custom_size" name="custom_size1" value="Other size..." onfocus="inputFocus(this)" onblur="inputBlur(this)"><input type="button" id="size_button" name="size_button1" value="Apply">
+</form>
+</td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Font color:</td>
+<td></td>
+<td>
+<form name="fontcolor_form1" id="fontcolor_form"><input type='color' id='font_color' name="font_color1"/><input type="button" id="fontcolor_button" name="fontcolor_button1" value="Apply">
+</form>
+</td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Font opacity:</td>
+<td>
+<form name="opacityrange_form1" id="opacityrange_form"><input type="range" max="1" min="0" step="0.01" id="opacity_slider" name="opacity_slider1">
+</form>
+</td>
+<td>
+<form name="opacity_form1" id="opacity_form"><input type="text" id="custom_opacity" name="custom_opacity1" value="0.75"><input type="button" id="opacity_button" name="opacity_button1" value="Apply">
+</form>
+</td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Line spacing:</td>
+<td>
+<form name="linerange_form1" id="linerange_form"><input type="range" max="3" min="1" step="0.1" id="lineheight_slider" name="lineheight1_slider">
+</form>
+</td>
+<td>
+<form name="lineheight_form1" id="lineheight_form"><input type="text" id="custom_lineheight" name="custom_lineheight1" value="normal"><input type="button" id="lineheight_button" name="lineheight_button1" value="Apply">
+</form>
+</td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Background color:</td>
+<td>
+<form name="bgon_form1" id="bgon_form"><label><input type="checkbox" id="bgon_button" name="bgon_button1">Enabled?</label>
+</form>
+</td>
+<td>
+<form name="colorpicker_form1" id="colorpicker_form"><input type='color' id='picker' name="picker1"/><input type="button" id="picker_button" name="picker_button1" value="Apply">
+</form>
+</td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Background image:</td>
+<td>
+<form name="bgimage_form1" id="bgimage_form"><input type="button" value="Reset Default" id="bg_default" name="bg_default1">
+</form>
+</td>
+<td>
+<form name="custombg_form1" id="custombg_form"><input type="url" value="Or type URL..." id="bg_url" name="bg_url1" onfocus="inputFocus(this)" onblur="inputBlur(this)"><input type="button" id="url_button" name="url_button1" value="Apply"></form>
+</td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Textarea style:</td>
+<td></td>
+<td>
+<form name="textarea_form1" id="textarea_form"><select id="textarea_style" name="textarea_style1">
+        <option value="note">Note</option>
+        <option value="book" selected>Book</option>
+        <option value="transparent">Transparent</option>
+    </select>
+</form>
+</td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Toggle spellcheck:</td>
+<td>
+<form name="spellcheck_form1" id="spellcheck_form"><input type="checkbox" id="spellcheck_button" name="spellcheck_button1" checked>
+</form>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Hide scrollbar:</td>
+<td>
+<form name="scrollbar_form1" id="scrollbar_form"><input type="checkbox" id="scrollbar_button" name="scrollbar_button1">
+</form>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr> <!--New row-->
+<td>Scroll to:</td>
+<td>
+<form name="scrolltop1" id="scrolltop"><input type="button" name="scrolltop_btn1" id="scrolltop_btn" value="Top">
+</form>
+</td>
+<td>
+<form name="scrollbottom1" id="scrollbottom"><input type="button" name="scrollbottom1_btn" id="scrollbottom_btn" value="Bottom">
+</form>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td><td></td><td></td>
+<td><a href="write-setter.html"><img src="images/home.png" id="home"></a></td>
+</tr>
+</table>
+
+<br/>
+
+<script>
+$(document).ready(function() {
+
+// save all form data on user change
+$("form").sisyphus();
+
+//save these forms every second (sisyphus doesn't detect programmatic change)
+$("#customsize_form").sisyphus( {
+	timeout: 1
+});
+$("#customfont_form").sisyphus( {
+	timeout: 1
+});
+$("#custombg_form").sisyphus( {
+	timeout: 1
+});
+
+$("#bgon_form").sisyphus( {
+	timeout: 1
+});
+
+$("#lineheight_form").sisyphus( {
+	timeout: 1
+});
+
+$("#opacity_form").sisyphus( {
+	timeout: 1
+});
+
+$("#linerange_form").sisyphus( {
+	timeout: 1
+});
+
+$("#opacityrange_form").sisyphus( {
+	timeout: 1
+});
+
+// handle browsers that don't support color input
+var colortest = document.createElement("input");
+colortest.setAttribute("type", "color");
+colortest = colortest.type !== "text";
+if (!colortest) {
+	$("#font_color").attr("type", "text");
+	$("#picker").attr("type", "text");
+}
+else {
+	$("#fontcolor_button").hide();
+	$("#picker_button").hide();
+}
+
+//set initial settings
+$('#words').css("font-family", $('#font_select').val());
+
+$('#words').css("font-size", $("#font_size").val() + "px");
+
+$('#words').css("color", $("#font_color").val());
+$("#book_title").css("color", $("#font_color").val());
+
+if ($('#custom_font').val() != "Other font...") {
+$('#words').css("font-family", $('#custom_font').val());
+}
+
+if ($('#custom_size').val() != "Other size...") {
+$('#words').css("font-size", $('#custom_size').val().concat("px"));
+}
+
+$('#words').css("opacity", $('#custom_opacity').val());
+
+$('#words').css("line-height", $('#custom_lineheight').val());
+
+if ($("#textarea_style").val() == "book") {
+	$('#text_form').css("background-image", "url(images/book.png)");	
+}
+else if ($("#textarea_style").val() == "transparent") {
+	$('#text_form').css("background-image", "none");
+}
+else {
+	$('#text_form').css("background-image", "url(images/paper.png)");
+}
+
+if ($('#bg_url').val() != "Or type URL..." && $('#bg_url').val() != "") {
+	str="url(";
+	str=str.concat($('#bg_url').val());
+	str=str.concat(")");
+	$('.body').css("background-image", str);
+	$('#bgon_button').removeAttr('checked');
+}
+else {
+	$('.body').css("background-size", "contain");
+}
+
+
+if($("#spellcheck_button").is(':checked')) {
+        $('#words').attr("spellcheck", true);
+    }
+else {
+		$('#words').attr("spellcheck", false);
+}
+
+if($("#scrollbar_button").is(':checked')) {
+        $('.body').css("overflow", "hidden");
+    }
+else {
+		$('.body').css("overflow", "visible");
+}
+
+if($("#bgon_button").is(':checked')) {
+        $('.body').css("background-color", $("#picker").val());
+		$('.body').css("background-image", "none");
+		$("#picker").prop("disabled", false);
+		$("#picker").css("opacity", 1);
+    }
+	else {
+		$("#picker").prop("disabled", true);
+		$("#picker").css("opacity", 0.5);
+	}
+
+// show and close options on click
+$('#show_options').click(function() {
+	$('.option_selections').slideDown();
+	$('#show_options').hide();
+});
+
+$('#close').click(function() {
+	$('.option_selections').toggle();
+});
+
+// display options button only when cursor is outside text area and options are not visible
+$("#words").hover(function() {
+$("#show_options").fadeOut();
+},
+function() {
+	if (!($(".option_selections").is(":visible"))) {
+		$("#show_options").fadeIn();
+	}
+});
+
+// hide options when click outside of them
+$(document).on('click', function(event) {
+  if ((!$(event.target).closest('.option_selections').length) && (!$(event.target).closest('#show_options').length)) {
+    $('.option_selections').hide();
+  }
+});
+
+// scroll to top or bottom of text area and page
+$('#scrolltop_btn').click(function() {
+    $('html, body').animate({scrollTop:0}, 'slow');
+	$('#words').animate({scrollTop:0}, 'slow');
+    return false;
+
+});
+
+$('#scrollbottom_btn').click(function() {
+	var element = $('#words');
+	element.css({
+  		top : 0,
+  		height : 0,
+  	overflow : 'scroll'
+	});
+	var actualHeight = element.prop('scrollHeight');
+	element.css({
+  	overflow : 'hidden',
+	width:"547px", //based on image dimensions
+	height:"950px"
+	});
+	$('html, body').animate({scrollTop:$(document).height()}, 'slow');
+	$('#words').animate({scrollTop:actualHeight}, 'slow');
+    return false;
+});
+
+// Font and background settings
+$("#font_select").change(function() {
+    $('#words').css("font-family", $(this).val());
+	$('#custom_font').val("Other font...");
+	$('#custom_font').css("color", "#888");
+
+});
+
+$("#font_size").change(function() {
+	$('#words').css("font-size", $(this).val() + "px");
+	$('#custom_size').val("Other size...");
+	$('#custom_size').css("color", "#888");
+		
+	
+});
+
+$("#textarea_style").change(function() {
+	if ($("#textarea_style").val() == "book") {
+	$('#text_form').css("background-image", "url(images/book.png)");
+}
+else if ($("#textarea_style").val() == "transparent") {
+	$('#text_form').css("background-image", "none");
+}
+else {
+	$('#text_form').css("background-image", "url(images/paper.png)");
+}
+});
+
+$("#opacity_button").click(function() {
+	$('#words').css("opacity", $('#custom_opacity').val());
+	opacity = $('#custom_opacity').val();
+	opacity = Number(opacity);
+	$('#opacity_slider').val(opacity);
+});
+
+$("#opacity_slider").change(function() {
+	opacity = $('#opacity_slider').val();
+	$('#words').css("opacity", opacity);
+	$('#custom_opacity').val(opacity);
+});
+
+$("#lineheight_button").click(function() {
+	$('#words').css("line-height", $('#custom_lineheight').val());
+	lineheight = $('#custom_lineheight').val();
+	lineheight = Number(lineheight);
+	$('#lineheight_slider').val(lineheight);
+});
+
+$("#lineheight_slider").change(function() {
+	lineheight = ($('#lineheight_slider').val());
+	$('#words').css("line-height", lineheight);
+	$('#custom_lineheight').val(lineheight);
+});
+
+$("#font_color").change(function() {
+	$('#words').css("color", $("#font_color").val());
+	$("#book_title").css("color", $("#font_color").val());
+});
+	
+$("#picker").change(function() {
+	if($("#bgon_button").is(':checked')) {
+	$('.body').css("background-color", $(this).val());
+	$('.body').css("background-image", "none");
+	}
+
+});
+
+$("#bg_default").click(function() {
+	$('.body').css("background-image", "url(images/desk.png)");
+	$('#bg_url').val("Or type URL...");
+	$('#bg_url').css("color", "#888");
+	$('#bgon_button').removeAttr('checked');
+	$("#picker").prop("disabled", true);
+	$("#picker").css("opacity", 0.5);
+	$('.body').css("background-size", "contain");
+});
+
+$('#url_button').click(function() {
+	str="url(";
+	str=str.concat($('#bg_url').val());
+	str=str.concat(")");
+	$('.body').css("background-image", str);
+	$('#bgon_button').removeAttr('checked');
+	$("#picker").prop("disabled", true);
+	$("#picker").css("opacity", 0.5);
+	$('.body').css("background-size","auto");
+	$('.body').css("background-repeat", "repeat");
+});
+
+$('#font_button').click(function() {
+	$('#words').css("font-family", $('#custom_font').val());
+});
+
+$('#size_button').click(function() {
+	$('#words').css("font-size", $('#custom_size').val().concat("px"));
+});
+
+
+$("#spellcheck_button").change(function() {
+    if(this.checked) {
+        $('#words').attr("spellcheck", true);
+		clone = $('#words').val();
+		$('#words').val("");
+		$('#words').val(clone);
+    }
+	else {
+		$('#words').attr("spellcheck", false);
+		clone = $('#words').val();
+		$('#words').val("");
+		$('#words').val(clone);
+	}
+});
+
+$("#scrollbar_button").change(function() {
+	if (this.checked) {
+		$('.body').css("overflow", "hidden");
+    }
+	else {
+		$('.body').css("overflow", "visible");
+	}
+	
+});
+
+$("#bgon_button").change(function() {
+    if(this.checked) {
+        $('.body').css("background-color", $("#picker").val());
+		$('.body').css("background-image", "none");
+		$("#picker").prop("disabled", false);
+		$("#picker").css("opacity", 1);
+    }
+	else {
+		$("#picker").prop("disabled", true);
+		$("#picker").css("opacity", 0.5);
+	}
+});
+
+
+
+});
+</script>
+
+<script>
+function inputFocus(i){
+    if(i.value==i.defaultValue){ i.value=""; i.style.color="#000"; }
+}
+function inputBlur(i){
+    if(i.value==""){ i.value=i.defaultValue; i.style.color="#888"; }
+}
+</script>
+
+</body>
+</html>
