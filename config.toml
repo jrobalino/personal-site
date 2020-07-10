@@ -2,6 +2,7 @@ baseURL = "https://commitmonkey.com/"
 languageCode = "en-us"
 title = "Javier Robalino"
 theme = "osprey"
+googleAnalytics="true"
 
 [Params]
     tagline = "Front End & VR/AR Developer"
