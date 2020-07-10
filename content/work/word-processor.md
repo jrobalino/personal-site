@@ -4,7 +4,7 @@ date: 2015-07-01T18:46:33-05:00
 draft: false
 ---
 
-[View code on GitHub](/work/api-keys-app/)
+[View code on GitHub](https://github.com/jrobalino/personal-site/tree/master/static/write-setter)
 
 ### A word processor that adapts to your needs
 
