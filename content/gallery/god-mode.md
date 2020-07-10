@@ -6,6 +6,7 @@ image: "god-mode-vr.png"
 alt: "God Mode VR Project"
 link1: "/work/god-mode/"
 link2: "https://github.com/jrobalino/god-mode"
+color: "#8fb862"
 weight: 3
 ---
 

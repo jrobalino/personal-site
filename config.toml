@@ -9,6 +9,7 @@ theme = "osprey"
     logoBig = "/images/monkey-big.png"
     logoSmall = "/images/monkey-small.jpg"
     favicon = "favicon.ico"
+    color1 = "red"
 
 [[menu.main]]
     name = "About"
