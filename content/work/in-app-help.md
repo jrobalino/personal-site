@@ -8,7 +8,7 @@ draft: false
 
 ### Help at your fingertips right when you need it
 
-<iframe style="margin:20px 0px 20px 0px;" width="560" height="315" src="https://www.youtube.com/embed/xzwPAi4ZU-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="margin:20px 0px 20px 0px;" width="100%" height="315" src="https://www.youtube.com/embed/xzwPAi4ZU-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 The in-app help system is a React.js application that displays help to end users when they click the Help button. This system has the following features:

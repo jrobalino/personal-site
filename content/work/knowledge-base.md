@@ -8,7 +8,7 @@ draft: false
 
 ### World-class documentation stack built on Jekyll
 
-<iframe style="margin:20px 0px 20px 0px;" width="560" height="315" src="https://www.youtube.com/embed/T2efUzTeHzk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="margin:20px 0px 20px 0px;" width="100%" height="315" src="https://www.youtube.com/embed/T2efUzTeHzk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 I built the technology stack for this documentation site using Jekyll and JavaScript. The site features:

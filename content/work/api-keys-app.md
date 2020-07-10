@@ -8,7 +8,7 @@ draft: false
 
 ### View, edit, and request API keys
 
-<iframe style="margin:20px 0px 20px 0px;" width="560" height="315" src="https://www.youtube.com/embed/fglSWZ8a3pM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="margin:20px 0px 20px 0px;" width="100%" height="315" src="https://www.youtube.com/embed/fglSWZ8a3pM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 This React.js application allows users to view, edit, and request API keys for several public-facing APIs that a company offers. The application features:
