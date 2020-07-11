@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
     <head>
+        {{ if .Site.GoogleAnalytics }}{{ template "_internal/google_analytics.html" . }}{{ end }}
         {{ if .Site.Params.googleTagManager }}
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -77,7 +78,6 @@
         <link rel="stylesheet" href="{{ .Site.BaseURL }}/styles/{{ if .Site.Params.cacheBustCSS }}{{ index .Site.Data.styles.hash "main.css" }}{{ else }}main.css{{ end }}" type="text/css">
         {{ if .Site.Params.customCSS }}{{ partial "css.html" . }}{{ end }}
         {{ if .Site.Params.highlightJS }}<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github.min.css">{{ end }}
-        {{ if .Site.GoogleAnalytics }}{{ template "_internal/google_analytics.html" . }}{{ end }}
     </head>
 
     <body>
