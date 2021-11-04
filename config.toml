@@ -5,7 +5,7 @@ theme = "osprey"
 googleAnalytics="true"
 
 [Params]
-    tagline = "Front End & VR/AR Developer"
+    tagline = "Developer Relations Leader"
     copyright = true
     logoBig = "/images/monkey-big.png"
     logoSmall = "/images/monkey-small.jpg"
