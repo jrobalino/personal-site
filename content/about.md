@@ -8,7 +8,7 @@ I'm a Developer Relations leader interested in creating positive impact through 
 
 * Developer portals
 * Front end frameworks like React.js
-* Back end APIs built with Node.js
+* Back end APIs built with Node.js, Java, and .NET
 * Unity
 * VR/AR SDKs like SteamVR
 * SaaS platforms
