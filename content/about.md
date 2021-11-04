@@ -17,3 +17,4 @@ I'm a Developer Relations leader interested in creating positive impact through 
 * Dev ops tools like Jenkins, Datadog, and Kibana
 * Communicating with internal and external stakeholders (partners, clients, C-suite, developers, technical writers, marketing, sales, business development)
 * Creating training programs and developer-focused blogs
+* Designing scalable API programs and hiring essential team members
