@@ -15,5 +15,5 @@ I'm a Developer Relations leader interested in creating positive impact through 
 * AWS services
 * Agile processes
 * Dev ops tools like Jenkins, Datadog, and Kibana
-* Communicating with internal and external stakeholders (partners, clients, C-suite, developers, marketing, sales, business development)
+* Communicating with internal and external stakeholders (partners, clients, C-suite, developers, technical writers, marketing, sales, business development)
 * Creating training programs and developer-focused blogs
