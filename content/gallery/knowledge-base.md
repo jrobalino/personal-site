@@ -6,5 +6,5 @@ alt: "Bazaarvoice Knowledge Base"
 link1: "/work/knowledge-base/"
 link2: "/work/knowledge-base/"
 color: "#8877d7"
-weight: 4
+weight: 5
 ---

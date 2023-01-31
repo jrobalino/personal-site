@@ -7,6 +7,7 @@ draft: false
 I'm a Developer Relations leader interested in creating positive impact through web applications and immersive technologies. I started my career as a Mechanical Engineer, a field in which strong project management and critical thinking skills are a must. After transitioning to tech, I learned the importance of designing experiences with the end user in mind. My career has taken me from building world-class documentation stacks to writing code as a front end developer to starting and running Developer Relations programs from scratch. I have experience working with:
 
 * Developer portals
+* Developer communities
 * Front end frameworks like React.js
 * Back end APIs built with Node.js, Java, and .NET
 * Unity
