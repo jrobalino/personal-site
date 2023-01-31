@@ -8,7 +8,9 @@ draft: false
 
 ### Fundamental projects for desktop and mobile VR
 
+{{< rawhtml >}}
 <img src="/images/vr-future.jpg" alt="Woman using VR to view model of house">
+{{< /rawhtml >}}
 
 The projects I completed for Udacity's Virtual Reality Nanodegree include:
 

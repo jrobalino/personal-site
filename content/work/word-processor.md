@@ -8,7 +8,9 @@ draft: false
 
 ### A word processor that adapts to your needs
 
+{{< rawhtml >}}
 <img style="margin-top: 20px" src="images/word-processor.png" alt="Book with words">
+{{< /rawhtml >}}
 
 
 This was my first ever JavaScript project. I had an idea for a word processor that displayed text on a book, and that's how this project was born. I called it WriteSetter.

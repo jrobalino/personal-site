@@ -6,8 +6,9 @@ draft: false
 
 ### Get the most out of building integrations with Front
 
+{{< rawhtml >}}
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/GVBX_TcxUe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+{{< /rawhtml >}}
 
 The [Front Developer Community](https://community.front.com) is a space designed to make developers successful at building high-quality integrations on the Front Platform. The community features:
 
