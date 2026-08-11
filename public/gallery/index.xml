@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Galleries on Javier Robalino</title>
+		<link>http://localhost:1313/gallery/</link>
+		<description>Recent content in Galleries on Javier Robalino</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 17 Aug 2017 18:17:42 -0500</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/gallery/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Minimalist Word Processor</title>
+				<link>http://localhost:1313/gallery/word-processor/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/gallery/word-processor/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Udacity Core VR Curriculum</title>
+				<link>http://localhost:1313/gallery/core-curriculum/</link>
+				<pubDate>Thu, 17 Aug 2017 17:59:50 -0500</pubDate>
+				<guid>http://localhost:1313/gallery/core-curriculum/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Rube Goldberg VR Game</title>
+				<link>http://localhost:1313/gallery/rube-goldberg/</link>
+				<pubDate>Thu, 17 Aug 2017 18:17:42 -0500</pubDate>
+				<guid>http://localhost:1313/gallery/rube-goldberg/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>God Mode VR Project</title>
+				<link>http://localhost:1313/gallery/god-mode/</link>
+				<pubDate>Thu, 17 Aug 2017 17:59:50 -0500</pubDate>
+				<guid>http://localhost:1313/gallery/god-mode/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bazaarvoice Knowledge Base</title>
+				<link>http://localhost:1313/gallery/knowledge-base/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/gallery/knowledge-base/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>In-app Help System</title>
+				<link>http://localhost:1313/gallery/in-app-help/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/gallery/in-app-help/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>API Key Management App</title>
+				<link>http://localhost:1313/gallery/api-keys-app/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/gallery/api-keys-app/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Front Developer Community</title>
+				<link>http://localhost:1313/gallery/front-community/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/gallery/front-community/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

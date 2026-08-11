@@ -6,6 +6,7 @@ draft: false
 
 I'm a Developer Relations leader interested in creating positive impact through web applications and immersive technologies. I started my career as a Mechanical Engineer, a field in which strong project management and critical thinking skills are a must. After transitioning to tech, I learned the importance of designing experiences with the end user in mind. My career has taken me from building world-class documentation stacks to writing code as a front end developer to starting and running Developer Relations programs from scratch. I have experience working with:
 
+* AI, MCP, agentic workflows, no-code frameworks
 * Developer portals
 * Developer communities
 * Front end frameworks like React.js
@@ -20,3 +21,5 @@ I'm a Developer Relations leader interested in creating positive impact through 
 * Working with and recruiting team members across multiple regions including USA, Belfast, and India
 * Creating training programs and developer-focused blogs
 * Designing scalable API programs and defining team roles for Engineering, QA, DevOps, Technical Writing, and Developer Advocates
+
+Keep up with my latest work on [LinkedIn](https://www.linkedin.com/in/javier-robalino-05401158/)

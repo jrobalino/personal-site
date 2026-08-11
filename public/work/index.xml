@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Works on Javier Robalino</title>
+		<link>http://localhost:1313/work/</link>
+		<description>Recent content in Works on Javier Robalino</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 30 Jan 2023 18:46:33 -0500</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/work/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Front Developer Community</title>
+				<link>http://localhost:1313/work/front-community/</link>
+				<pubDate>Mon, 30 Jan 2023 18:46:33 -0500</pubDate>
+				<guid>http://localhost:1313/work/front-community/</guid>
+				<description>&lt;h3 id=&#34;get-the-most-out-of-building-integrations-with-front&#34;&gt;Get the most out of building integrations with Front&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/GVBX_TcxUe0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&#xA;&lt;p&gt;The &lt;a href=&#34;https://community.front.com&#34;&gt;Front Developer Community&lt;/a&gt; is a space designed to make developers successful at building high-quality integrations on the Front Platform. The community features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A developer Q&amp;amp;A forum that allows user to ask questions and get answers. The forum allows users to select the best answer.&lt;/li&gt;&#xA;&lt;li&gt;A space to provide feedback to the Front team.&lt;/li&gt;&#xA;&lt;li&gt;The ability to subscribe to important news and updates regarding the API, including deprecations.&lt;/li&gt;&#xA;&lt;li&gt;A place to engage and become inspired by other developers.&lt;/li&gt;&#xA;&lt;li&gt;Gamification that allows users to earn badges and move up the community ranks.&lt;/li&gt;&#xA;&lt;li&gt;Integrations with various systems, such as Salesforce, an LMS, an idea portal, etc.&lt;/li&gt;&#xA;&lt;li&gt;Federated search that pulls in content from developer documentation and other sources.&lt;/li&gt;&#xA;&lt;li&gt;Beautiful branding that was the result of collaborating with the Marketing team.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I was responsible for the research to select a community vendor, obtaining approval and funding (note: Saas communities can be very expensive!), justifying the value of the community and the return on investment, configuring the community, creating integrations for the community using Node.js and other frameworks, project managing the branding of the community, testing the community before go live, coordinating the promotion plan and launch for the community, and helping to moderate and ensure the community&amp;rsquo;s success.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>API Key Management App</title>
+				<link>http://localhost:1313/work/api-keys-app/</link>
+				<pubDate>Sun, 01 Mar 2020 18:46:33 -0500</pubDate>
+				<guid>http://localhost:1313/work/api-keys-app/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/work/api-keys-app/&#34;&gt;Code is not available for this project because the repository belongs to a company I&amp;rsquo;ve worked for&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;view-edit-and-request-api-keys&#34;&gt;View, edit, and request API keys&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe style=&#34;margin:20px 0px 20px 0px;&#34; width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/fglSWZ8a3pM&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&#xA;&lt;p&gt;This React.js application allows users to view, edit, and request API keys for several public-facing APIs that a company offers. The application features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GET and POST operations to request and send data to internal APIs that manage client keys.&lt;/li&gt;&#xA;&lt;li&gt;A list of all keys a user has access to.&lt;/li&gt;&#xA;&lt;li&gt;The ability to filter, sort, and search for keys based on various criteria.&lt;/li&gt;&#xA;&lt;li&gt;Smart pagination and record counts.&lt;/li&gt;&#xA;&lt;li&gt;Use of local storage to save user filters.&lt;/li&gt;&#xA;&lt;li&gt;A details page that allows users to view and edit API keys depending on their permissions.&lt;/li&gt;&#xA;&lt;li&gt;A wizard to request new API keys.&lt;/li&gt;&#xA;&lt;li&gt;A permissions model that limits the views and actions a user can take depending on their account role and the client instances they have access to.&lt;/li&gt;&#xA;&lt;li&gt;A combination of React hooks, React class components, and JavaScript Promises to resolve and render API data as it updates.&lt;/li&gt;&#xA;&lt;li&gt;Validation and error messages in the UI.&lt;/li&gt;&#xA;&lt;li&gt;Translation into multiple languages.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I was one of three engineers that worked on this application.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>In-app Help</title>
+				<link>http://localhost:1313/work/in-app-help/</link>
+				<pubDate>Thu, 31 Oct 2019 18:46:33 -0500</pubDate>
+				<guid>http://localhost:1313/work/in-app-help/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/work/in-app-help/&#34;&gt;Code is not available for this project because the repository belongs to a company I&amp;rsquo;ve worked for&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;help-at-your-fingertips-right-when-you-need-it&#34;&gt;Help at your fingertips right when you need it&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe style=&#34;margin:20px 0px 20px 0px;&#34; width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xzwPAi4ZU-0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&#xA;&lt;p&gt;The in-app help system is a React.js application that displays help to end users when they click the Help button. This system has the following features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Displays help within a drawer embedded in the application.&lt;/li&gt;&#xA;&lt;li&gt;Displays help contextual to each page.&lt;/li&gt;&#xA;&lt;li&gt;Enables technical writers to update the help content without code changes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The in-app help system sources content from Markdown files stored in AWS S3, and runs AWS Lambda functions to determine the correct file to display based on mappings in a JSON manifest.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Knowledge Base</title>
+				<link>http://localhost:1313/work/knowledge-base/</link>
+				<pubDate>Sat, 01 Sep 2018 18:46:33 -0500</pubDate>
+				<guid>http://localhost:1313/work/knowledge-base/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/work/api-keys-app/&#34;&gt;Code is not available for this project because the repository belongs to a company I&amp;rsquo;ve worked for&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;world-class-documentation-stack-built-on-jekyll&#34;&gt;World-class documentation stack built on Jekyll&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe style=&#34;margin:20px 0px 20px 0px;&#34; width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/T2efUzTeHzk&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&#xA;&lt;p&gt;I built the technology stack for this documentation site using Jekyll and JavaScript. The site features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A modern and responsive design built on Jekyll and custom JavaScript and CSS (no pre-built theme).&lt;/li&gt;&#xA;&lt;li&gt;Search powered by AWS CloudSearch APIs and a batch script to create the search index.&lt;/li&gt;&#xA;&lt;li&gt;Easy content authoring in Markdown with full support for images, videos, code blocks, notes, accordions, tables, etc.&lt;/li&gt;&#xA;&lt;li&gt;Dynamic scrollspy menu.&lt;/li&gt;&#xA;&lt;li&gt;Custom toolbar for contacting Support, providing feedback, switching languages, or toggling elements on the page.&lt;/li&gt;&#xA;&lt;li&gt;Gulp-based build tool for generating test and production builds and a variety of other day-to-day tasks.&lt;/li&gt;&#xA;&lt;li&gt;Translation tools integrated with Jenkins and the Smartling API.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>God Mode VR Capstone Project</title>
+				<link>http://localhost:1313/work/god-mode/</link>
+				<pubDate>Thu, 17 Aug 2017 18:46:33 -0500</pubDate>
+				<guid>http://localhost:1313/work/god-mode/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://github.com/jrobalino/god-mode&#34;&gt;View code on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;should-you-maintain-the-status-quo&#34;&gt;Should you maintain the status quo?&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe style=&#34;margin:20px 0px 20px 0px;&#34; width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pYS6a06gcqw&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&#xA;&lt;p&gt;The video shows a quick walkthrough of my Udacity VR Developer Nanodegree capstone project. The experience casts players as a deity in charge of maintaining the status quo between a set of rich and poor dogs. Without pity, players must ration food unevenly, separate puppies from their parents, and risk the lives of poor dogs. Ultimately, players must sacrifice the souls of the poor dogs in order to bless the rich dogs. In return, players receive adoring worship from those that benefit. But is maintaining the status quo truly the only option?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Rube Goldberg VR game</title>
+				<link>http://localhost:1313/work/rube-goldberg/</link>
+				<pubDate>Thu, 17 Aug 2017 18:46:33 -0500</pubDate>
+				<guid>http://localhost:1313/work/rube-goldberg/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://github.com/jrobalino/rube-goldberg&#34;&gt;View code on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;this-project-won-the-outstanding-project-award-for-vr-project-at-the-udacity-intersect-conference-2018&#34;&gt;This project won the &lt;strong&gt;Outstanding Project Award for VR project&lt;/strong&gt; at the Udacity Intersect Conference, 2018&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;iframe style=&#34;margin:20px 0px 20px 0px;&#34; width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/abQ79KXhK0Y&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xD;&#xA;&#xA;&lt;p&gt;The video shows snippets of the intro, tutorial, and ending for my Rube Goldberg game. The game challenges the player to ferry a ball from a starting platform to an end goal, without hitting the ground and while collecting a sequence of stars along the way. The player builds the path for the ball using a collection of wooden planks, conveyor belts, trampolines, teleporters, and fans. All the while, the player is watched over by their smart-mouthed supervisor, Kate, who doesn&amp;rsquo;t always seem to have the player&amp;rsquo;s best interest in mind. Kate tells the player that the balls are sentient, and that they die every time they hit the ground, which places enormous pressure on the player to solve the puzzles as efficiently as possible!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Udacity Core VR Curriculum</title>
+				<link>http://localhost:1313/work/udacity-core-vr-curriculum/</link>
+				<pubDate>Thu, 17 Aug 2017 18:46:33 -0500</pubDate>
+				<guid>http://localhost:1313/work/udacity-core-vr-curriculum/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://github.com/jrobalino/udacity-vr&#34;&gt;View code on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;fundamental-projects-for-desktop-and-mobile-vr&#34;&gt;Fundamental projects for desktop and mobile VR&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/vr-future.jpg&#34; alt=&#34;Woman using VR to view model of house&#34;&gt;&#xD;&#xA;&#xA;&lt;p&gt;The projects I completed for Udacity&amp;rsquo;s Virtual Reality Nanodegree include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A basic virtual world&lt;/li&gt;&#xA;&lt;li&gt;A virtual apartment experience&lt;/li&gt;&#xA;&lt;li&gt;A VR maze game&lt;/li&gt;&#xA;&lt;li&gt;A VR puzzle game that tests your memory and visual reflexes&lt;/li&gt;&#xA;&lt;li&gt;An educational VR experience&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;to-learn-about-these-projects-please-view-my-project-page&#34;&gt;To learn about these projects, please view my &lt;a href=&#34;https://jrobalino.github.io/udacity-vr/&#34;&gt;project page&lt;/a&gt;.&lt;/h3&gt;</description>
+			</item>
+			<item>
+				<title>Minimalist Word Processor</title>
+				<link>http://localhost:1313/work/word-processor/</link>
+				<pubDate>Wed, 01 Jul 2015 18:46:33 -0500</pubDate>
+				<guid>http://localhost:1313/work/word-processor/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://github.com/jrobalino/personal-site/tree/master/static/write-setter&#34;&gt;View code on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;a-word-processor-that-adapts-to-your-needs&#34;&gt;A word processor that adapts to your needs&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img style=&#34;margin-top: 20px&#34; src=&#34;images/word-processor.png&#34; alt=&#34;Book with words&#34;&gt;&#xD;&#xA;&#xA;&lt;p&gt;This was my first ever JavaScript project. I had an idea for a word processor that displayed text on a book, and that&amp;rsquo;s how this project was born. I called it WriteSetter.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;http://localhost:1313/write-setter/write-setter.html&#34;&gt;WriteSetter landing page&lt;/a&gt; to learn more about it.&lt;/p&gt;&#xA;&lt;h3 id=&#34;try-it-out&#34;&gt;&lt;a href=&#34;http://localhost:1313/write-setter/word-processor.html&#34;&gt;Try it out!&lt;/a&gt;&lt;/h3&gt;</description>
+			</item>
+	</channel>
+</rss>

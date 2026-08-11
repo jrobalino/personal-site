@@ -1,0 +1,67 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/work/front-community/</loc>
+    <lastmod>2023-01-30T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2023-01-30T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/</loc>
+    <lastmod>2023-01-30T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/api-keys-app/</loc>
+    <lastmod>2020-03-01T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/in-app-help/</loc>
+    <lastmod>2019-10-31T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/knowledge-base/</loc>
+    <lastmod>2018-09-01T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/god-mode/</loc>
+    <lastmod>2017-08-17T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/rube-goldberg/</loc>
+    <lastmod>2017-08-17T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/udacity-core-vr-curriculum/</loc>
+    <lastmod>2017-08-17T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2017-08-16T20:06:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/word-processor/</loc>
+    <lastmod>2015-07-01T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+  
+</urlset>
