@@ -2,17 +2,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/work/front-community/</loc>
-    <lastmod>2023-01-30T18:46:33-05:00</lastmod>
+    <loc>http://localhost:1313/work/front-developer-relations/</loc>
+    <lastmod>2026-10-21T18:46:33-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2023-01-30T18:46:33-05:00</lastmod>
+    <lastmod>2026-10-21T18:46:33-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://localhost:1313/work/</loc>
+    <lastmod>2026-10-21T18:46:33-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/work/front-community/</loc>
     <lastmod>2023-01-30T18:46:33-05:00</lastmod>
   </url>
   
