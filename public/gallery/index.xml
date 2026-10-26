@@ -69,5 +69,12 @@
 				<guid>http://localhost:1313/gallery/front-community/</guid>
 				<description></description>
 			</item>
+			<item>
+				<title>Developer Relations at Front</title>
+				<link>http://localhost:1313/gallery/front-developer-relations/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/gallery/front-developer-relations/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>

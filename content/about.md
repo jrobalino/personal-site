@@ -26,7 +26,7 @@ I'm a Developer Relations leader interested in creating positive impact through 
 * Building Developer Relations teams and strategies from scratch
 * Aligning incentives and goals across internal and external stakeholders (partners, clients, C-suite, developers, technical writers, marketing, sales, business development)
 * Using AI to automate or improve processes such as product feedback gathering, prioritization models, internal and external documentation, partner communications, and community announcements
-* Working with and recruiting team members across multiple regions including USA, Belfast, and India
+* Hiring and recruiting team members across multiple regions including USA, Northern Ireland, Chile, and India
 * Creating training programs, LMS certification courses, and developer-focused blogs
 * Designing scalable API programs and defining team roles for Engineering, QA, DevOps, Technical Writing, and Developer Advocates
 
